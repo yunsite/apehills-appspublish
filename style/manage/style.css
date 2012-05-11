@@ -1,0 +1,83 @@
+/* style sheet for AppPublish Manage System */
+/* by ConciseTony */
+/* common style and page style */
+
+/* common */
+body { font-family:"微软雅黑", "Microsoft YaHei"; font-size:12px; background-color:#1b98e2; }
+.wrap { width:950px; margin:0 auto; }
+.header { height:30px; line-height:30px; padding:0 10px 0 0; background-color:#1c5374; color:#fff; }
+.header .flt { padding:0 20px; background:#194966; font-size:14px; }
+.header .frt { font-size:12px; }
+
+.main { margin-top:5px; padding-bottom:35px; }
+.nav { float:left; width:200px; background-color:#6481b8; padding-bottom:200px; }
+.nav a { padding-left:10px; display:block; height:30px; line-height:30px; margin-bottom:1px; }
+.nav a:link, .nav a:visited { background-color:#5e7aae; color:#fff; text-decoration:none; }
+.nav a:active, .nav a:hover, .nav a:focus { background-color:#334a73; color:#fff; text-decoration:none; }
+.nav a.cur:link, .nav a.cur:visited, .nav a.cur:active, .nav a.cur:hover, .nav a.cur:focus { background-color:#334a73; color:#fff; text-decoration:none; }
+
+.list { float:right; width:745px; background-color:#6481b8; }
+.list-nav { height:28px; line-height:28px; background-color:#ed982b; }
+.list-nav a { padding:0 20px; line-height:28px; float:left; margin-right:2px; _display:inline; }
+.list-nav a:link, .list-nav a:visited { background:none; color:#fff; text-decoration:none; }
+.list-nav a:active, .list-nav a:hover, .list-nav a:focus { background:#d58826; color:#fff; text-decoration:none; }
+.list-nav a.cur:link, .list-nav a.cur:visited, .list-nav a.cur:active, .list-nav a.cur:hover, .list-nav a.cur:focus { background:#d58826; color:#fff; text-decoration:none; }
+
+.footer { margin-top:10px; height:18px; line-height:18px; text-align:right; padding-right:20px; background-color:#333; color:#fff; font-size:12px; }
+
+
+a.a1:link, a.a1:visited { color:#334a73; text-decoration:none; background:none; }
+a.a1:active, a.a1:hover, a.a1:focus { color:#fff; background-color:#334a73; text-decoration:none; }
+
+/* app list page style*/
+.apps { padding:20px 10px 30px; min-height:300px; }
+.apps table { width:725px; border:none; font-size:12px; }
+.apps thead td { background-color:#333; color:#fff; font-weight:bold; height:30px; line-height:30px; }
+.apps tbody td { line-height:28px; font-weight:normal; }
+.apps .apps-id { text-align:center; width:50px; }
+.apps .apps-position { text-align:center; width:50px; padding-right:10px; }
+.apps .apps-edit { text-align:center; width:60px; }
+.apps .apps-delete { text-align:center; width:80px; }
+.apps .apps-link { text-align:center; width:60px; }
+.apps .apps-odd { background-color:#aeaeae; }
+.apps .apps-even { background-color:#cdcdcd; }
+
+/* app add page style */
+.add { padding:20px 60px; }
+.add table { width:625px; font-size:12px; font-weight:normal; }
+.add td { line-height:28px; padding-bottom:10px; }
+.add .add-lt { width:130px; text-align:center; font-size:14px; vertical-align:top; }
+.add .add-submitwrap { padding:20px 20px 0 0; text-align:right; }
+.add .add-submitwrap input { cursor:pointer; display:inline-block; font-size:14px; height:22px; line-height:22px; padding:0 15px; border:none; background-color:#ED982B; color:#fff; }
+.add .txtip1 { border:solid 1px #333; padding-left:5px; line-height:24px; width:200px; }
+.add .taip1 { border:solid 1px #333; padding-left:5px; line-height:24px; width:250px; }
+
+
+/* ad list page style */
+.ads { padding:20px 10px 30px; min-height:300px; }
+.ads table { width:725px; border:none; font-size:12px; }
+.ads thead td { background-color:#333; color:#fff; font-weight:bold; height:30px; line-height:30px; }
+.ads tbody td { line-height:28px; font-weight:normal; }
+.ads .ads-id { text-align:center; width:50px; }
+.ads .ads-position { text-align:center; width:50px; padding-right:10px; }
+.ads .ads-edit { text-align:center; width:60px; }
+.ads .ads-delete { text-align:center; width:80px; }
+.ads .ads-link { text-align:center; width:60px; }
+.ads .ads-odd { background-color:#aeaeae; }
+.ads .ads-even { background-color:#cdcdcd; }
+
+
+
+
+/* login view page style */
+.login { width:350px; margin:0 auto; padding-top:300px; }
+.login-in { border:1px solid #b5b5b5; background-color:#dadada; padding:20px; }
+.login-in table { width:300px; font-size:12px; }
+.login-in td { line-height:26px; padding-bottom:10px; }
+.login-lt { text-align:right; white-space:nowrap; }
+.login-rt { padding-left:10px; }
+.login .txtip1 { border:solid 1px #333; padding-left:5px; line-height:24px; width:200px; }
+.login-submitwrap { text-align:right; padding-right:20px; }
+.login-submitwrap input { cursor:pointer; display:inline-block; font-size:14px; height:22px; line-height:22px; padding:0 15px; border:none; background-color:#ED982B; color:#fff; }
+
+

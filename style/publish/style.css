@@ -1,0 +1,37 @@
+/* common */
+.clearfix { zoom:1; }
+.clearfix:after { content:"0020"; height:0; font-size:0; clear:both; }
+.pt { text-indent:99999px; overflow:hidden; }
+
+
+/* page */
+html,
+body { width:640px; height:960px; }
+
+.loading { height:960px; width:640px; line-height:960px; text-align:center; font-size:14px; position:absolute; z-index:2; background:#fff; }
+.wrap { width:640px; height:960px; overflow:hidden; }
+.header { width:640px; height:86px; text-align:center; position:relative; background:url(../../images/publish/header.png) no-repeat; }
+.logo { display:inline-block; width:180px; height:86px; background:url(../images/img_01.png) 50% 50% no-repeat; }
+.btn-close { display:block; width:86px; height:86px; position:absolute; right:40px; top:0; background:url(../images/img_02.png) 50% 50% no-repeat; }
+
+.main { height:794px; background:#000; }
+.slider { width:640px; height:374px; overflow:hidden; }
+.slider-in { -webkit-user-select:none; height:374px; -webkit-transform:translate3d(0,0,0); width:10000px;/* tmp */ }
+.slider-in-auto-eff { -webkit-transition:all 0.4s ease-in-out; }
+.slider-in-drag-eff { -webkit-transition:all 0 ease; }
+.slider-in a { -webkit-user-select:none; display:block; float:left; width:640px; height:374px; border-radius:16px; overflow:hidden; }
+.slider-in a img { -webkit-user-select:none; display:block; width:640px; height:374px; }
+
+.viewer { height:420px; width:640px; overflow:hidden; }
+.viewer-in { height:420px; width:10000px; -webkit-transform:translate3d(0,0,0); }
+.viewer-in-drag-eff { -webkit-transition:all 0 ease; }
+.viewer-in-release-eff { -webkit-transition:all 0.3s ease-in-out; }
+.viewer-item { float:left; width:160px; text-align:center; }
+.viewer-item p { height:130px; padding:40px 0; }
+.viewer-item p a { -webkit-user-select:none; display:inline-block; width:130px; height:130px; }
+.viewer-item a img { -webkit-user-select:none; width:130px; height:130px; display:inline-block; }
+
+.footer { height:79px; border-top:solid 2px #fff; background:url(../../images/publish/footer.png) no-repeat; }
+.footer table { width:100%; height:100%; }
+.footer table td { width:33.3%; height:100%; text-align:center; vertical-align:middle; }
+.footer td a { display:inline-block; }
